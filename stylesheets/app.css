@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background: blue;
+}
+
+a {
+    color: #111;
+    text-decoration: none;
+}
+
+/*hover=> quand on passe avec la souris*/
+a:hover {
+    text-decoration: underline;
+}
+
+/*visited=> quand on a déjà cliqué sur le lien*/
+a:visited {
+    color: red;
+}
+
+/*overflow agit sur l'élément courant*/
+header {
+    overflow: auto;
+}
+
+nav {
+    float: right;
+    margin-right: 15px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    background: url(../images/car.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+}
+
+.col-moitie {
+    width: 50%;
+    float: left;
+}
